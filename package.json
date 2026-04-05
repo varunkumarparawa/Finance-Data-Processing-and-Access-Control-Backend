@@ -1,0 +1,18 @@
+{
+  "name": "finance-backend",
+  "version": "1.0.0",
+  "description": "Finance Dashboard Backend - API for managing financial records with role-based access control",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["finance", "dashboard", "backend", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "body-parser": "^1.20.2"
+  }
+}
